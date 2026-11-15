@@ -1,5 +1,5 @@
 # Video Object Detection & Tracking
-![demo](assets/demo1.mp4)
+![demo](assets/demo2.gif)
 
 Real-time object detection, multi-object tracking and analytics for video files, streams and webcams.
 YOLO11 does the detection on each frame, ByteTrack (or BoT-SORT) links detections into persistent
