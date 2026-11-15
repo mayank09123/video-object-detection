@@ -1,0 +1,6 @@
+# Vehicle counting preset: only road users, line placed in the lower third.
+model: yolo11s.pt
+conf: 0.3
+classes: [car, truck, bus, motorcycle, bicycle, person]
+tracker: bytetrack.yaml
+line: [0.0, 0.65, 1.0, 0.65]

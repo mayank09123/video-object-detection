@@ -1,0 +1,13 @@
+# Default pipeline settings. Any CLI flag overrides the value here.
+model: yolo11n.pt        # yolo11n (fastest) -> yolo11s -> yolo11m (more accurate)
+conf: 0.35
+iou: 0.5
+imgsz: 640
+device: cpu              # "0" for the first CUDA GPU, "mps" on Apple Silicon
+classes: null            # e.g. [person, car, truck, bus, bicycle, motorcycle]
+tracker: bytetrack.yaml  # or botsort.yaml (adds camera-motion compensation + ReID)
+trail_length: 30
+line: [0.0, 0.5, 1.0, 0.5]   # horizontal line across the middle of the frame
+stride: 1
+max_frames: null
+show: false
